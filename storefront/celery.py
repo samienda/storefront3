@@ -6,4 +6,6 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'storefront.settings')
 celery = Celery('storefront')
 celery.config_from_object('django.conf:settings', namespace='CELERY')
 
+CELERY_REDIRECT_STDOUTS = True
 celery.autodiscover_tasks()
+
