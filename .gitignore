@@ -1,7 +1,9 @@
 *.pyc
+*.pyc.*
 /hide
 /media
 /images
 *.dat
 *.bak
 *.dir
+*.json
